@@ -169,3 +169,6 @@ cursor:
 # Live config reload (changes require restart)
 live_config_reload: true
 
+# Keybinds
+key_bindings: 
+  - {key: Return, mods: Super, action: SpawnNewInstance }
