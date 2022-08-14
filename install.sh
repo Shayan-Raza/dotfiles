@@ -11,3 +11,15 @@ echo
 
 read -p "Enter the number of the config you want to install: " selected
 
+# Functions for configs
+neovim () { 
+	sudo pacman -S neovim
+	mv ./nvim/ ~/.config
+}
+
+# Running functions based on user input
+if [ $selected == 1 ] 
+then 
+	neovim
+fi
+
