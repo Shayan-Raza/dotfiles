@@ -2,13 +2,14 @@
 
 # Table of Contents
 - [Installation](#Installation)
+	- [Install Script](#Install-Script)
 	- [Fonts](#Fonts)
-	- [Programs](#Programs)
-- [Neo Vim](#nvim) 
-- [alacritty](#alacritty)
+- [Programs](#Programs)
+	- [Neo Vim](#nvim) 
+	- [alacritty](#alacritty)
 
 # Installation
-### Install Script
+### Install-Script
 This repo also comes with an install script that supports installing the programs and moving the configs.
 ```
 chmod +x install.sh
@@ -19,13 +20,13 @@ chmod +x install.sh
 ### Fonts
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures)
 
-### Programs
+# Programs
 - [Neo Vim](http://neovim.io/)
 - [Alacritty](https://github.com/alacritty/alacritty)
 - [Vim Plug](https://github.com/junegunn/vim-plug)
 
-# Neo Vim
+### Neo Vim
 ![nvim screenshot](assets/screenshots/nvim.png)
 
-# alacritty
+### alacritty
 ![alacritty screenshot](assets/screenshots/alacritty.png)
