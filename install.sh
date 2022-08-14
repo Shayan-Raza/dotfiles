@@ -13,12 +13,12 @@ read -p "Enter the number of the config you want to install: " selected
 
 # Functions for configs
 neovim () { 
-	echo "Chosen NeoVim"
+	echo "Neovim Config"
 	sudo pacman -S neovim
 	mv ./nvim/ ~/.config
 }
 alacritty () { 
-	echo "Chosen Alacritty"
+	echo "Alacritty Config"
 	sudo pacman -S alacritty
 	mv ./alacritty ~/.config
 }
@@ -30,5 +30,9 @@ then
 elif [ $selected == 2 ]  
 then
 	alacritty
+elif [ $selected == 3 ] 
+then 
+	echo "Chosen All"
+	neovim 
+	alacritty
 fi
-
