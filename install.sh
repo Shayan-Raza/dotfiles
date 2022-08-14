@@ -35,4 +35,21 @@ then
 	echo "Chosen All"
 	neovim 
 	alacritty
+else
+	echo "Number not found"
+	exit
 fi
+
+#Font Install
+while true; do
+	read -p "Do you want to install the JetBrains Mono Font (Y/n): " yn
+    case $yn in
+        [Yy]* ) /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)" ;
+                break;;
+        [Nn]* ) echo "You choose not to install the font." ;
+                break;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+
