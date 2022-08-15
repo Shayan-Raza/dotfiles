@@ -1,5 +1,3 @@
-# Shayan Raza's dotfiles
-
 # Table of Contents
 - [Installation](#Installation)
 	- [Install Script](#Install-Script)
