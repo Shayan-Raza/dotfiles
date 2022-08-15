@@ -21,7 +21,6 @@ chmod +x install.sh
 # Programs
 - [Neo Vim](http://neovim.io/)
 - [Alacritty](https://github.com/alacritty/alacritty)
-- [Vim Plug](https://github.com/junegunn/vim-plug)
 
 ### Neo Vim
 ![nvim screenshot](assets/screenshots/nvim.png)
