@@ -8,7 +8,7 @@
 
 # Installation
 ### Install-Script
-This repo also comes with an install script that supports installing the programs and moving the configs.
+This repo comes with an install script that supports installing the fonts and moving the configs.
 ```
 chmod +x install.sh
 ```

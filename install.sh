@@ -14,14 +14,12 @@ read -p "Enter the number of the config you want to install: " selected
 # Functions for configs
 neovim () { 
 	echo "Neovim Config"
-	sudo pacman -S neovim
 	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 	mv ./nvim/ ~/.config
 }
 alacritty () { 
 	echo "Alacritty Config"
-	sudo pacman -S alacritty
 	mv ./alacritty ~/.config
 }
 
