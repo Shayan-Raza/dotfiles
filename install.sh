@@ -40,6 +40,8 @@ else
 	exit
 fi
 
+echo 
+echo
 #Font Install
 while true; do
 	read -p "Do you want to install the JetBrains Mono Font (Y/n): " yn
