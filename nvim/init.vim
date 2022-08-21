@@ -12,6 +12,7 @@ Plug 'https://github.com/joshdick/onedark.vim'
 Plug 'https://github.com/sheerun/vim-polyglot'
 Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'aurieh/discord.nvim'
 
 call plug#end()
 
