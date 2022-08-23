@@ -1,7 +1,7 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator
 
 shell:
-   program: /bin/bash
+   program: /bin/fish
 
 window:
   # Window dimensions (changes require restart)
@@ -25,7 +25,7 @@ window:
   # Values for `decorations`:
   #     - full: Borders and title bar
   #     - none: Neither borders nor title bar
-  decorations: full
+  decorations: none
 
   startup_mode: Windowed
   dynamic_title: true
