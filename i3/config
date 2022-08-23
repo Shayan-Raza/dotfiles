@@ -34,9 +34,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Bar
-exec_always --no-startup-id ~/.i3/polybar.sh &
-
 #Background
 exec --no-startup-id feh --bg-fill ~/Downloads/arch.png
 
