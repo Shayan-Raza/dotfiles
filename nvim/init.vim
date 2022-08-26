@@ -16,6 +16,9 @@ Plug 'aurieh/discord.nvim'
 
 call plug#end()
 
+" Plugin config
+let NERDTreeShowHidden=1
+
 " Keybinds
 nnoremap <C-b> :NERDTreeToggle<CR>
 
