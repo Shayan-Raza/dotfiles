@@ -1,12 +1,13 @@
 #! /bin/bash
 
-echo "This script installs the config files of Shayan Raza"
+echo "Easy-Configs install script"
 echo
 
 echo "Choose the config you want to install"
 echo "1) Neo Vim"
 echo "2) Alacritty"
-echo "3) All"
+echo "3) i3"
+echo "4) All"
 echo
 
 read -p "Enter the number of the config you want to install: " selected
@@ -22,15 +23,23 @@ alacritty () {
 	echo "Alacritty Config"
 	mv ./alacritty ~/.config
 }
-
+i3 () { 
+	echo "i3 config"
+	mv ./i3 ~/.config	
+}
 # Running functions based on user input
 if [ $selected == 1 ] 
 then
+	echo "Chosen Neo Vim"
 	neovim
 elif [ $selected == 2 ]  
 then
+	echo "Chosen Alacritty"
 	alacritty
 elif [ $selected == 3 ] 
+	echo "Chosen i3"
+	i3
+elif [ $selected == 4 ] 
 then 
 	echo "Chosen All"
 	neovim 
@@ -42,6 +51,7 @@ fi
 
 echo 
 echo
+
 #Font Install
 while true; do
 	read -p "Do you want to install the JetBrains Mono Font (Y/n): " yn
@@ -53,5 +63,3 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-
