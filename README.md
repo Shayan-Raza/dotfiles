@@ -5,6 +5,7 @@
 - [Programs](#Programs)
 	- [Neo Vim](#nvim) 
 	- [alacritty](#alacritty)
+	- [i3](#i3)
 
 # Installation
 ### Install-Script
@@ -21,6 +22,7 @@ chmod +x install.sh
 # Programs
 - [Neo Vim](http://neovim.io/)
 - [Alacritty](https://github.com/alacritty/alacritty)
+- [i3](https://i3wm.org/)
 
 ### Neo Vim
 ![nvim screenshot](assets/screenshots/nvim.png)
@@ -28,3 +30,6 @@ chmod +x install.sh
 ### alacritty
 I am using the fish-shell. The config uses the bash shell. To use your shell you will have to edit the 4th line with the path to your shell in the alacritty.yml file in ~/.config/alacritty. 
 ![alacritty screenshot](assets/screenshots/alacritty.png)
+
+### i3
+![i3 screenshot](assets/screenshots/alacritty.png)
