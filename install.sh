@@ -44,6 +44,7 @@ then
 	echo "Chosen All"
 	neovim 
 	alacritty
+	i3
 else
 	echo "Number not found"
 	exit
