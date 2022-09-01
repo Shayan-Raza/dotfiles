@@ -32,4 +32,4 @@ I am using the fish-shell. The config uses the bash shell. To use your shell you
 ![alacritty screenshot](assets/screenshots/alacritty.png)
 
 ### i3
-![i3 screenshot](assets/screenshots/alacritty.png)
+![i3 screenshot](assets/screenshots/i3.png)
