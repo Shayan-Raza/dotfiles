@@ -37,6 +37,7 @@ then
 	echo "Chosen Alacritty"
 	alacritty
 elif [ $selected == 3 ] 
+then
 	echo "Chosen i3"
 	i3
 elif [ $selected == 4 ] 
