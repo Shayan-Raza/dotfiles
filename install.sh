@@ -3,56 +3,53 @@
 echo "Easy-Configs install script"
 echo
 
-echo "Choose the config you want to install"
-echo "1) Neo Vim"
-echo "2) Alacritty"
-echo "3) i3"
-echo "4) All"
-echo
-
-read -p "Enter the number of the config you want to install: " selected
-
 # Functions for configs
 neovim () { 
-	echo "Neovim Config"
-	curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	mv ./nvim/ ~/.config
+	mv -f ./nvim/ ~/.config
 }
 alacritty () { 
-	echo "Alacritty Config"
-	mv ./alacritty ~/.config
+	mv -f ./alacritty ~/.config
 }
 i3 () { 
-	echo "i3 config"
-	mv ./i3 ~/.config	
+	mv -f ./i3 ~/.config	
 }
-# Running functions based on user input
-if [ $selected == 1 ] 
-then
-	echo "Chosen Neo Vim"
-	neovim
-elif [ $selected == 2 ]  
-then
-	echo "Chosen Alacritty"
-	alacritty
-elif [ $selected == 3 ] 
-then
-	echo "Chosen i3"
-	i3
-elif [ $selected == 4 ] 
-then 
-	echo "Chosen All"
-	neovim 
-	alacritty
-	i3
-else
-	echo "Number not found"
-	exit
-fi
 
-echo 
-echo
+# Running functions
+# Neovim
+while true; do 
+    read -p "Do you want to install the neovim configs (Y/n): " yn
+    case $yn in 
+        [Yy]* )neovim ; 
+            break;;
+        [Nn]* ) echo "You chose not to install the neovim config" ;
+            break;;
+    * ) echo "Please answer yes or no.";;
+    esac
+done
+
+# Alacritty
+while true; do 
+    read -p "Do you want to install the alacritty configs (Y/n): " yn
+    case $yn in 
+        [Yy]* )alacritty ;
+            break;;
+        [Nn]* ) echo "You chose not to install the alacritty config"
+            break;;
+        * ) echo "Please answer yes or no"
+    esac
+done
+
+# i3
+while true; do 
+    read -p "Do you want to install the i3 configs (Y/n): " yn
+    case $yn in 
+        [Yy]* )i3 ; 
+            break;;
+        [Nn]* ) echo "You chose not to install the i3 config"
+            break;;
+        * ) echo "Please answer yes or no"
+    esac
+done
 
 #Font Install
 while true; do
@@ -65,3 +62,5 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
+
+echo "Exiting the script"
