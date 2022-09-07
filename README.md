@@ -6,6 +6,7 @@
 	- [Neo Vim](#nvim) 
 	- [alacritty](#alacritty)
 	- [i3](#i3)
+	- [vscode](#vscode)
 
 # Installation
 ### Install-Script
@@ -23,6 +24,7 @@ chmod +x install.sh
 - [Neo Vim](http://neovim.io/)
 - [Alacritty](https://github.com/alacritty/alacritty)
 - [i3](https://i3wm.org/)
+- [vscode](https://code.visualstudio.com/)
 
 ### Neo Vim
 ![nvim screenshot](assets/screenshots/nvim.png)
@@ -33,3 +35,6 @@ I am using the fish-shell. The config uses the bash shell. To use your shell you
 
 ### i3
 ![i3 screenshot](assets/screenshots/i3.png)
+
+###vscode
+![vscode screenshot](assets/screenshots/vscode.png)

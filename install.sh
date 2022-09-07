@@ -7,11 +7,19 @@ echo
 neovim () { 
 	mv -f ./nvim/ ~/.config
 }
+
 alacritty () { 
 	mv -f ./alacritty ~/.config
 }
+
 i3 () { 
 	mv -f ./i3 ~/.config	
+}
+
+vscode () {
+    mv -f ./vscode/settings.json ~/.config/Code/User
+    mv -f /vscode/keybinds.json ~/.config/Code/User
+    /bin/bash ./vscode/extensions.sh
 }
 
 # Running functions

@@ -1,0 +1,16 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "700",
+  "editor.fontLigatures": true,
+  "git.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "onWindowChange",
+  "workbench.startupEditor": "none",
+  "python.defaultInterpreterPath": "C:\\Users\\Shayan\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "explorer.confirmDelete": false
+}
