@@ -61,7 +61,7 @@ done
 
 # vscode
 while true; do
-    read -p "Do you want to install the vscode configs (Y/n): "yn
+    read -p "Do you want to install the vscode configs (Y/n): " yn
     case $yn in 
         [Yy]* )vscode ;
             break;;
