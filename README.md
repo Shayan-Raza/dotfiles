@@ -36,5 +36,5 @@ I am using the fish-shell. The config uses the bash shell. To use your shell you
 ### i3
 ![i3 screenshot](assets/screenshots/i3.png)
 
-###vscode
+### vscode
 ![vscode screenshot](assets/screenshots/vscode.png)
