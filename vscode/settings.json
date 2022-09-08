@@ -6,11 +6,11 @@
   "editor.fontWeight": "700",
   "editor.fontLigatures": true,
   "git.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "files.autoSave": "onWindowChange",
+"security.workspace.trust.untrustedFiles": "open",
   "workbench.startupEditor": "none",
   "python.defaultInterpreterPath": "C:\\Users\\Shayan\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
   "editor.wordWrap": "on",
   "editor.detectIndentation": false,
-  "explorer.confirmDelete": false
+"explorer.confirmDelete": false,
+"editor.lineNumbers": "relative"
 }
