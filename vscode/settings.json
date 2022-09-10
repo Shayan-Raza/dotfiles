@@ -12,5 +12,7 @@
   "editor.wordWrap": "on",
   "editor.detectIndentation": false,
 "explorer.confirmDelete": false,
-"editor.lineNumbers": "relative"
+"editor.lineNumbers": "relative",
+"explorer.confirmDragAndDrop": false,
+"python.analysis.autoImportCompletions": false
 }
