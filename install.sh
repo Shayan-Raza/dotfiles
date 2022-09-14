@@ -18,7 +18,7 @@ i3 () {
 
 vscode () {
     mv -f ./vscode/settings.json ~/.config/Code/User
-    mv -f /vscode/keybinds.json ~/.config/Code/User
+    mv -f ./vscode/keybinds.json ~/.config/Code/User
     /bin/bash ./vscode/extensions.sh
 }
 
