@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "Easy-Configs install script"
+echo "Shayan Raza dotfiles installation script"
 echo
 
 # Functions for configs
