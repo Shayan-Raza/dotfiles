@@ -7,3 +7,6 @@ I am using the fish-shell. The config uses the bash shell. To use your shell you
 
 # i3
 ![i3 screenshot](assets/screenshots/i3.png)
+
+# Windows Terminal 
+![Windows Terminal](assets/screenshots/windowsterminal.png)
