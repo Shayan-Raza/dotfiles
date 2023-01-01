@@ -3,3 +3,6 @@
 
 # Windows Terminal 
 ![Windows Terminal](assets/screenshots/windowsterminal.png)
+
+# Starship
+![Starship](assets/screenshots/starship.png)
