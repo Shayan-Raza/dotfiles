@@ -3,3 +3,6 @@
 
 # Starship
 ![Starship](assets/screenshots/starship.png)
+
+# Alacritty 
+![Alacritty](assets/screenshots/alacritty.png)
