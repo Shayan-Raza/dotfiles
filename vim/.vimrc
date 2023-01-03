@@ -13,6 +13,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'https://github.com/joshdick/onedark.vim'
+Plug 'LunarWatcher/auto-pairs'
 
 call plug#end()
 
