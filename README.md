@@ -6,3 +6,6 @@
 
 # Alacritty 
 ![Alacritty](assets/screenshots/alacritty.png)
+
+# i3
+![i3](assets/screenshots/alacritty.png)
