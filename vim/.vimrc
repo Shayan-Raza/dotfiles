@@ -1,6 +1,5 @@
 set number
 set relativenumber
-set autoindent
 set foldmethod=indent
 syntax on 
 
