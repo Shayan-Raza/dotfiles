@@ -14,6 +14,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'https://github.com/joshdick/onedark.vim'
 Plug 'LunarWatcher/auto-pairs'
+Plug 'https://github.com/airblade/vim-gitgutter'
+Plug 'chrisbra/csv.vim'
 
 call plug#end()
 
